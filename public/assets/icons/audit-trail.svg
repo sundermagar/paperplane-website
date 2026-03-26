@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Clipboard -->
+  <rect x="12" y="10" width="32" height="46" rx="3" stroke="#7ED957" stroke-width="2.5" fill="none"/>
+  <rect x="22" y="6" width="12" height="8" rx="2" stroke="#7ED957" stroke-width="2" fill="none"/>
+  <!-- Checklist rows -->
+  <rect x="18" y="22" width="6" height="6" rx="1" stroke="#7ED957" stroke-width="1.5" fill="none"/>
+  <polyline points="19,25 21,27 24,23" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="28" y1="25" x2="38" y2="25" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <rect x="18" y="32" width="6" height="6" rx="1" stroke="#7ED957" stroke-width="1.5" fill="none"/>
+  <polyline points="19,35 21,37 24,33" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="28" y1="35" x2="36" y2="35" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <rect x="18" y="42" width="6" height="6" rx="1" stroke="#7ED957" stroke-width="1.5" fill="none"/>
+  <polyline points="19,45 21,47 24,43" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="28" y1="45" x2="34" y2="45" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Search/eye overlay -->
+  <circle cx="48" cy="46" r="10" stroke="#7ED957" stroke-width="2" fill="#04110d"/>
+  <circle cx="48" cy="46" r="4" stroke="#7ED957" stroke-width="1.5" fill="none"/>
+  <circle cx="48" cy="46" r="1.5" fill="#7ED957"/>
+</svg>

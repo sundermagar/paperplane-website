@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Document -->
+  <rect x="12" y="6" width="30" height="42" rx="3" stroke="#7ED957" stroke-width="2.5" fill="none"/>
+  <path d="M34 6v10h8" stroke="#7ED957" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Rx text -->
+  <text x="18" y="28" font-family="serif" font-size="12" font-weight="bold" fill="#7ED957" opacity="0.7">Rx</text>
+  <line x1="18" y1="33" x2="36" y2="33" stroke="#7ED957" stroke-width="1.2" opacity="0.4"/>
+  <line x1="18" y1="38" x2="30" y2="38" stroke="#7ED957" stroke-width="1.2" opacity="0.3"/>
+  <!-- Approval stamp/badge -->
+  <circle cx="44" cy="44" r="12" stroke="#7ED957" stroke-width="2.5" fill="#04110d"/>
+  <polyline points="37,44 42,49 51,39" stroke="#7ED957" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Person 1 (center, fading) -->
+  <circle cx="32" cy="18" r="7" stroke="#7ED957" stroke-width="2.5" fill="none" stroke-dasharray="4 3"/>
+  <path d="M18 50v-4c0-5.5 4.5-10 10-10h8c5.5 0 10 4.5 10 10v4" stroke="#7ED957" stroke-width="2.5" stroke-linecap="round" fill="none" stroke-dasharray="4 3"/>
+  <!-- Warning triangle -->
+  <path d="M46 18l7 12H39l7-12z" stroke="#7ED957" stroke-width="2" stroke-linejoin="round" fill="none"/>
+  <line x1="46" y1="22" x2="46" y2="26" stroke="#7ED957" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="46" cy="28.5" r="1" fill="#7ED957"/>
+  <!-- Break line -->
+  <line x1="12" y1="54" x2="52" y2="54" stroke="#7ED957" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
+</svg>

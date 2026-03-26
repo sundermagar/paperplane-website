@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Moon (night/after hours) -->
+  <path d="M42 12c-10 2-18 11-18 22s8 20 18 22c-2 0.5-4 0.7-6 0.7C22 56.7 10 44.7 10 30S22 3.3 36 3.3c2 0 4 0.2 6 0.7z" stroke="#7ED957" stroke-width="2.5" fill="none"/>
+  <!-- Phone with signal -->
+  <rect x="38" y="30" width="16" height="26" rx="3" stroke="#7ED957" stroke-width="2" fill="none"/>
+  <line x1="44" y1="51" x2="48" y2="51" stroke="#7ED957" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Missed signal waves -->
+  <path d="M50 22c2-2 2-5 0-7" stroke="#7ED957" stroke-width="1.8" stroke-linecap="round" opacity="0.6" fill="none"/>
+  <path d="M54 19c3-3 3-8 0-11" stroke="#7ED957" stroke-width="1.8" stroke-linecap="round" opacity="0.4" fill="none"/>
+</svg>

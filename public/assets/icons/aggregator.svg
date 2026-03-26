@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Grid of competing listings -->
+  <rect x="8" y="8" width="20" height="20" rx="3" stroke="#9CA3AF" stroke-width="2" fill="none"/>
+  <rect x="36" y="8" width="20" height="20" rx="3" stroke="#9CA3AF" stroke-width="2" fill="none"/>
+  <rect x="8" y="36" width="20" height="20" rx="3" stroke="#9CA3AF" stroke-width="2" fill="none"/>
+  <rect x="36" y="36" width="20" height="20" rx="3" stroke="#9CA3AF" stroke-width="2" fill="none"/>
+  <!-- Person icons in each -->
+  <circle cx="18" cy="15" r="3" stroke="#9CA3AF" stroke-width="1.5" fill="none"/>
+  <circle cx="46" cy="15" r="3" stroke="#9CA3AF" stroke-width="1.5" fill="none"/>
+  <circle cx="18" cy="43" r="3" stroke="#9CA3AF" stroke-width="1.5" fill="none"/>
+  <circle cx="46" cy="43" r="3" stroke="#9CA3AF" stroke-width="1.5" fill="none"/>
+  <line x1="14" y1="23" x2="22" y2="23" stroke="#9CA3AF" stroke-width="1.2" opacity="0.5"/>
+  <line x1="42" y1="23" x2="50" y2="23" stroke="#9CA3AF" stroke-width="1.2" opacity="0.5"/>
+  <line x1="14" y1="51" x2="22" y2="51" stroke="#9CA3AF" stroke-width="1.2" opacity="0.5"/>
+  <line x1="42" y1="51" x2="50" y2="51" stroke="#9CA3AF" stroke-width="1.2" opacity="0.5"/>
+</svg>

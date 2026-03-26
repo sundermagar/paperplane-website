@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <rect x="6" y="16" width="36" height="32" rx="4" stroke="#9CA3AF" stroke-width="2.5" fill="none"/>
+  <polygon points="50,22 58,16 58,48 50,42" stroke="#9CA3AF" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+  <!-- Person silhouette inside screen -->
+  <circle cx="24" cy="28" r="5" stroke="#9CA3AF" stroke-width="1.5" opacity="0.5" fill="none"/>
+  <path d="M16 42c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="#9CA3AF" stroke-width="1.5" opacity="0.5" stroke-linecap="round" fill="none"/>
+</svg>
