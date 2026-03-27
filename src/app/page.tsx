@@ -178,201 +178,128 @@ export default function Home() {
         </FadeInUp>
       </section>
 
-      {/* ====== 2. REALITY CHECK ====== */}
-      <section id="reality" className="py-24 px-6 section-alt">
-        <FadeInUp>
-          <div className="max-w-[800px] mx-auto">
-            <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-12 leading-tight">
-              This is already happening
-              <br />
-              in your clinic.
-            </h2>
-
-            <StaggerChildren className="flex flex-col gap-7 mb-16">
-              <StaggerItem>
-                <div className="flex items-start gap-4">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#7ED957] mt-2.5 flex-shrink-0" />
-                  <p className="text-lg text-[#9CA3AF]">Patients message after hours — no response</p>
-                </div>
-              </StaggerItem>
-              <StaggerItem>
-                <div className="flex items-start gap-4">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#7ED957] mt-2.5 flex-shrink-0" />
-                  <p className="text-lg text-[#9CA3AF]">Follow-ups are missed</p>
-                </div>
-              </StaggerItem>
-              <StaggerItem>
-                <div className="flex items-start gap-4">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#7ED957] mt-2.5 flex-shrink-0" />
-                  <p className="text-lg text-[#9CA3AF]">Staff forgets, patients don&apos;t return</p>
-                </div>
-              </StaggerItem>
-              <StaggerItem>
-                <div className="flex items-start gap-4">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#7ED957] mt-2.5 flex-shrink-0" />
-                  <p className="text-lg text-[#9CA3AF]">You handle everything manually</p>
-                </div>
-              </StaggerItem>
-            </StaggerChildren>
-
-            <div className=" pt-10">
-              <p className="text-xl md:text-2xl font-bold text-white leading-snug">
-                You&apos;re not losing patients because of demand.
-                <br />
-                <span className="text-[#7ED957] text-2xl md:text-3xl">
-                  You&apos;re losing them because of operations.
-                </span>
-              </p>
-            </div>
-          </div>
-        </FadeInUp>
-      </section>
-
-      {/* ====== 3. PROBLEM CARDS ====== */}
-      <section id="problem" className="py-24 px-6 ">
-        <StaggerChildren className="max-w-[1100px] mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-8">
-          {/* BIG card (left) */}
-          <StaggerItem>
-          <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-12 flex flex-col justify-between transition-all duration-500 hover:border-[#7ED957] hover:-translate-y-1 min-h-[310px] shadow-[0_0_40px_rgba(126,217,87,0.04)] hover:shadow-[0_0_50px_rgba(126,217,87,0.1)]">
-            <div>
-              <div className="w-12 h-12 rounded-xl bg-[#0B3D2E]/30 border border-[#0B3D2E] flex items-center justify-center mb-6">
-                <img src="/assets/icons/Emergency-Call--Streamline-Sharp.svg" alt="" width={24} height={24} className="w-6 h-6 icon-light" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-3">Capture patients after hours</h3>
-              <p className="text-[#9CA3AF] text-base leading-relaxed">
-                Automatically responds when your clinic is closed. 40% of WhatsApp messages go unread — each one is a
-                patient who goes somewhere else.
-              </p>
-            </div>
-            <div className="mt-8">
-              <span className="text-5xl font-extrabold text-[#7ED957]">40%</span>
-              <span className="text-[#9CA3AF] text-sm ml-2">messages unread</span>
-            </div>
-          </div>
-
-          </StaggerItem>
-          {/* Smaller cards (right) */}
-          <StaggerItem>
-          <div className="flex flex-col gap-8">
-            <div className="bg-[#061a14] border border-[#0B3D2E]/80 rounded-2xl p-8 transition-all duration-500 hover:border-[#7ED957]/60 hover:-translate-y-0.5">
-              <div className="w-10 h-10 rounded-xl bg-[#0B3D2E]/30 border border-[#0B3D2E] flex items-center justify-center mb-4">
-                <img src="/assets/icons/Checkup-Medical-Report-Clipboard--Streamline-Sharp.svg" alt="" width={20} height={20} className="w-5 h-5 icon-light" />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">Save 2.5 hours daily</h3>
-              <p className="text-[#9CA3AF] text-sm leading-relaxed">
-                AI structures clinical notes from consultations automatically. No manual transcription into outdated
-                systems.
-              </p>
-            </div>
-            <div className="bg-[#061a14] border border-[#0B3D2E]/80 rounded-2xl p-8 transition-all duration-500 hover:border-[#7ED957]/60 hover:-translate-y-0.5">
-              <div className="w-10 h-10 rounded-xl bg-[#0B3D2E]/30 border border-[#0B3D2E] flex items-center justify-center mb-4">
-                <img src="/assets/icons/nurse-without-cap-cloth--Streamline-Ultimate.svg" alt="" width={20} height={20} className="w-5 h-5 icon-light" />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">Remove single points of failure</h3>
-              <p className="text-[#9CA3AF] text-sm leading-relaxed">
-                Follow-ups run on autopilot. One staff member leaving doesn&apos;t break your patient retention.
-              </p>
-            </div>
-            <div className="bg-[#061a14] border border-[#0B3D2E]/80 rounded-2xl p-8 transition-all duration-500 hover:border-[#7ED957]/60 hover:-translate-y-0.5">
-              <div className="w-10 h-10 rounded-xl bg-[#0B3D2E]/30 border border-[#0B3D2E] flex items-center justify-center mb-4">
-                <img src="/assets/icons/Hospital-First-Aid--Streamline-Ultimate.svg" alt="" width={20} height={20} className="w-5 h-5 icon-light" />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">Zero training required</h3>
-              <p className="text-[#9CA3AF] text-sm leading-relaxed">
-                Patients use WhatsApp. Doctors get a simple dashboard. No new software for anyone to learn.
-              </p>
-            </div>
-          </div>
-          </StaggerItem>
-        </StaggerChildren>
-      </section>
-
-      {/* ====== 3.5 REFRAME — WHY NOT THE ALTERNATIVES ====== */}
-      <section className="py-24 px-6 section-alt section-glow relative overflow-hidden">
+      {/* ====== 2. BEFORE vs AFTER ====== */}
+      <section className="py-28 px-6 section-alt">
         <div className="max-w-[1100px] mx-auto">
           <FadeInUp>
-            <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-14 leading-tight text-center">
-              You&apos;ve tried fixing this before.
-            </h2>
+            <div className="text-center mb-16">
+              <span className="hero-badge">The shift</span>
+              <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-4 leading-tight">
+                How your clinic works today<br />vs with Paperplane
+              </h2>
+            </div>
           </FadeInUp>
 
-          <StaggerChildren className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* LEFT: What exists */}
-            <StaggerItem>
-            <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 hover:border-[#7ED957]/40 hover:-translate-y-0.5 transition-all duration-400">
-              <span className="text-xs font-bold text-[#9CA3AF] uppercase tracking-widest block mb-6">
-                What clinics try
-              </span>
-              <div className="flex flex-col gap-5">
-                <div className="flex items-start gap-3">
-                  <img src="/assets/icons/x-mark.svg" alt="" width={16} height={16} className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-white font-semibold">Aggregator platforms</p>
-                    <p className="text-xs text-[#9CA3AF] mt-0.5">
-                      You lose your brand. Patients see competitors. Revenue gets cut.
-                    </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <FadeInUp>
+              <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8">
+                <span className="text-xs font-bold text-red-400/70 uppercase tracking-widest block mb-6">Today&apos;s reality</span>
+                <div className="flex flex-col gap-5">
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-400/60 mt-0.5">&times;</span>
+                    <p className="text-sm text-[#9CA3AF]">Patients message after hours — no one responds</p>
                   </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <img src="/assets/icons/x-mark.svg" alt="" width={16} height={16} className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-white font-semibold">More staff</p>
-                    <p className="text-xs text-[#9CA3AF] mt-0.5">
-                      Inconsistent. Expensive. One person leaves, the system breaks.
-                    </p>
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-400/60 mt-0.5">&times;</span>
+                    <p className="text-sm text-[#9CA3AF]">Staff manually writes prescriptions and notes</p>
                   </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <img src="/assets/icons/x-mark.svg" alt="" width={16} height={16} className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-white font-semibold">Generic SaaS tools</p>
-                    <p className="text-xs text-[#9CA3AF] mt-0.5">
-                      Complex setup. Not built for clinical workflows. Staff won&apos;t adopt it.
-                    </p>
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-400/60 mt-0.5">&times;</span>
+                    <p className="text-sm text-[#9CA3AF]">Follow-ups depend on staff memory</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-400/60 mt-0.5">&times;</span>
+                    <p className="text-sm text-[#9CA3AF]">Patient records scattered across registers and phones</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-400/60 mt-0.5">&times;</span>
+                    <p className="text-sm text-[#9CA3AF]">No visibility into clinic performance or patient retention</p>
                   </div>
                 </div>
               </div>
-            </div>
+            </FadeInUp>
 
-            </StaggerItem>
-            {/* RIGHT: Paperplane */}
-            <StaggerItem>
-            <div className="bg-[#061a14] border border-[#7ED957]/20 rounded-2xl p-8 hover:border-[#7ED957]/40 hover:-translate-y-0.5 transition-all duration-400">
-              <span className="text-xs font-bold text-[#7ED957] uppercase tracking-widest block mb-6">
-                What Paperplane does
-              </span>
-              <div className="flex flex-col gap-5">
-                <div className="flex items-start gap-3">
-                  <img src="/assets/icons/checkmark.svg" alt="" width={16} height={16} className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-white font-semibold">Your brand, your patients</p>
-                    <p className="text-xs text-[#9CA3AF] mt-0.5">
-                      Patients interact with your clinic. We&apos;re invisible infrastructure.
-                    </p>
+            <FadeInUp delay={0.15}>
+              <div className="card-gradient-border p-8 border-[#7ED957]/20">
+                <span className="text-xs font-bold text-[#7ED957] uppercase tracking-widest block mb-6">With Paperplane</span>
+                <div className="flex flex-col gap-5">
+                  <div className="flex items-start gap-3">
+                    <span className="text-[#7ED957] mt-0.5">&#x2713;</span>
+                    <p className="text-sm text-[#E8E8E8]">Every WhatsApp message captured and responded to 24&times;7</p>
                   </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <img src="/assets/icons/checkmark.svg" alt="" width={16} height={16} className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-white font-semibold">Automated operations</p>
-                    <p className="text-xs text-[#9CA3AF] mt-0.5">
-                      Triage, queue, prescriptions, follow-ups — run without extra staff.
-                    </p>
+                  <div className="flex items-start gap-3">
+                    <span className="text-[#7ED957] mt-0.5">&#x2713;</span>
+                    <p className="text-sm text-[#E8E8E8]">Digital prescriptions generated in seconds, sent via WhatsApp</p>
                   </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <img src="/assets/icons/checkmark.svg" alt="" width={16} height={16} className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-white font-semibold">System-driven clinic</p>
-                    <p className="text-xs text-[#9CA3AF] mt-0.5">
-                      Patients use WhatsApp. Doctors get a dashboard app. No patient downloads needed.
-                    </p>
+                  <div className="flex items-start gap-3">
+                    <span className="text-[#7ED957] mt-0.5">&#x2713;</span>
+                    <p className="text-sm text-[#E8E8E8]">Automated follow-up reminders — no staff needed</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-[#7ED957] mt-0.5">&#x2713;</span>
+                    <p className="text-sm text-[#E8E8E8]">Complete patient database — prescriptions, lab tests, history archived</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-[#7ED957] mt-0.5">&#x2713;</span>
+                    <p className="text-sm text-[#E8E8E8]">Reporting dashboard with clinic analytics and pharma-ready reports</p>
                   </div>
                 </div>
               </div>
+            </FadeInUp>
+          </div>
+
+          <FadeInUp>
+            <div className="mt-12 text-center">
+              <p className="text-xl md:text-2xl font-bold text-white">
+                You&apos;re not losing patients because of demand.<br />
+                <span className="text-[#7ED957]">You&apos;re losing them because of operations.</span>
+              </p>
             </div>
-            </StaggerItem>
-          </StaggerChildren>
+          </FadeInUp>
+        </div>
+      </section>
+
+      {/* ====== 3. HOW IT WORKS — STEP BY STEP ====== */}
+      <section className="py-28 px-6 section-glow relative overflow-hidden">
+        <div className="max-w-[1000px] mx-auto">
+          <FadeInUp>
+            <div className="text-center mb-16">
+              <span className="hero-badge">Product walkthrough</span>
+              <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-4 leading-tight">
+                From onboarding to reporting.<br />Here&apos;s how it works.
+              </h2>
+            </div>
+          </FadeInUp>
+
+          <div className="flex flex-col gap-0">
+            {[
+              { step: "1", title: "Onboarding", desc: "We set up your Paperplane clinic in under 7 days. Your branding, your WhatsApp number, your workflows." },
+              { step: "2", title: "Invite patients", desc: "Share your clinic link or QR code. Patients start messaging your WhatsApp — Paperplane handles the rest." },
+              { step: "3", title: "Appointment booking", desc: "Patients book slots through WhatsApp. Queue managed automatically. No phone calls needed." },
+              { step: "4", title: "Physical consultation", desc: "Patient arrives at clinic. Doctor consults as usual. Paperplane structures the notes in real-time." },
+              { step: "4a", title: "Online consultation", desc: "For remote patients — video or audio consult through the Paperplane app. Same structured output." },
+              { step: "5", title: "Digital prescription", desc: "AI drafts the prescription from consultation notes. Doctor reviews, approves in one tap. Sent to patient via WhatsApp." },
+              { step: "6", title: "Follow-up reminders", desc: "System automatically pings patients for follow-ups. No staff involvement. No missed appointments." },
+              { step: "7", title: "Medical records archive", desc: "Every prescription, lab test, and consultation archived digitally. Patient can access anytime. Complete peace of mind." },
+              { step: "8", title: "Reporting dashboard", desc: "Clinic analytics, patient retention metrics, and pharma-ready reports. Doctor gets full visibility into clinic performance." },
+              { step: "9", title: "ABHA ID integration", desc: "Linked with India\u2019s digital health ecosystem. Future-ready compliance built in." },
+            ].map((item, i) => (
+              <FadeIn key={item.step} delay={i * 0.05}>
+                <div className="flex gap-6 pb-8 relative">
+                  <div className="flex flex-col items-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-[#0B3D2E]/50 border border-[#7ED957]/30 flex items-center justify-center">
+                      <span className="text-[#7ED957] text-xs font-bold">{item.step}</span>
+                    </div>
+                    {i < 9 && <div className="w-px flex-1 bg-[#0B3D2E] mt-2" />}
+                  </div>
+                  <div className="pb-4">
+                    <h3 className="text-lg font-bold text-white mb-1">{item.title}</h3>
+                    <p className="text-sm text-[#9CA3AF] leading-relaxed max-w-lg">{item.desc}</p>
+                  </div>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -1022,49 +949,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ====== 7. POSITIONING ====== */}
-      <section id="positioning" className="py-28 px-6 ">
-        <div className="max-w-[1000px] mx-auto">
-          <FadeInUp>
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-4 leading-tight">
-                We build your clinic&apos;s system.
-                <br />
-                <span className="text-[#9CA3AF] font-bold">Not our platform.</span>
-              </h2>
-              <p className="text-lg text-[#9CA3AF]">No marketplaces. No competitors. No revenue cuts.</p>
-            </div>
-          </FadeInUp>
-
-          <StaggerChildren className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <StaggerItem>
-            <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957] hover:-translate-y-0.5 border-l-4 border-l-[#7ED957]">
-              <h3 className="text-lg font-bold text-white mb-3">No Aggregation</h3>
-              <p className="text-sm text-[#9CA3AF] leading-relaxed">
-                We don&apos;t list you alongside competitors. Your patients stay yours.
-              </p>
-            </div>
-            </StaggerItem>
-            <StaggerItem>
-            <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957] hover:-translate-y-0.5 border-l-4 border-l-[#7ED957]">
-              <h3 className="text-lg font-bold text-white mb-3">Zero Commissions</h3>
-              <p className="text-sm text-[#9CA3AF] leading-relaxed">
-                No cuts from your revenue. No per-transaction fees. Ever.
-              </p>
-            </div>
-            </StaggerItem>
-            <StaggerItem>
-            <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957] hover:-translate-y-0.5 border-l-4 border-l-[#7ED957]">
-              <h3 className="text-lg font-bold text-white mb-3">Full Ownership</h3>
-              <p className="text-sm text-[#9CA3AF] leading-relaxed">
-                Your data, your patients, your brand. We&apos;re invisible infrastructure.
-              </p>
-            </div>
-            </StaggerItem>
-          </StaggerChildren>
-        </div>
-      </section>
-
       {/* ====== 7.2 CLINIC LOGOS MARQUEE ====== */}
       <section className="py-12 px-6 overflow-hidden">
         <FadeInUp>
@@ -1224,120 +1108,119 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ====== 7.5 MARKET VALIDATION ====== */}
-      <section className="py-24 px-6 section-alt">
+      {/* ====== 8. DOCTOR WINS ====== */}
+      <section className="py-28 px-6 section-bold section-glow relative overflow-hidden">
+        <div className="max-w-[1100px] mx-auto">
+          <FadeInUp>
+            <div className="text-center mb-16">
+              <span className="hero-badge">For doctors</span>
+              <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-4 leading-tight">
+                What changes for you
+              </h2>
+              <p className="text-lg text-[#9CA3AF]">Less cognitive load. More patients. More revenue.</p>
+            </div>
+          </FadeInUp>
+
+          <StaggerChildren className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <StaggerItem>
+              <div className="card-gradient-border p-6 text-center h-full">
+                <span className="text-4xl md:text-5xl font-black text-[#7ED957] leading-none">2.5hrs</span>
+                <div className="w-8 h-px bg-[#7ED957]/30 mx-auto mt-3 mb-2" />
+                <p className="text-sm font-semibold text-white mb-1">Saved daily</p>
+                <p className="text-xs text-[#9CA3AF]">No manual notes, no paper prescriptions</p>
+              </div>
+            </StaggerItem>
+            <StaggerItem>
+              <div className="card-gradient-border p-6 text-center h-full">
+                <span className="text-4xl md:text-5xl font-black text-[#7ED957] leading-none">+30%</span>
+                <div className="w-8 h-px bg-[#7ED957]/30 mx-auto mt-3 mb-2" />
+                <p className="text-sm font-semibold text-white mb-1">More repeat visits</p>
+                <p className="text-xs text-[#9CA3AF]">Automated follow-ups bring patients back</p>
+              </div>
+            </StaggerItem>
+            <StaggerItem>
+              <div className="card-gradient-border p-6 text-center h-full">
+                <span className="text-4xl md:text-5xl font-black text-[#7ED957] leading-none">24&times;7</span>
+                <div className="w-8 h-px bg-[#7ED957]/30 mx-auto mt-3 mb-2" />
+                <p className="text-sm font-semibold text-white mb-1">Patient capture</p>
+                <p className="text-xs text-[#9CA3AF]">Never miss a message, even at 2 AM</p>
+              </div>
+            </StaggerItem>
+            <StaggerItem>
+              <div className="card-gradient-border p-6 text-center h-full">
+                <span className="text-4xl md:text-5xl font-black text-[#7ED957] leading-none">100%</span>
+                <div className="w-8 h-px bg-[#7ED957]/30 mx-auto mt-3 mb-2" />
+                <p className="text-sm font-semibold text-white mb-1">Clinic visibility</p>
+                <p className="text-xs text-[#9CA3AF]">Dashboard with analytics and pharma reports</p>
+              </div>
+            </StaggerItem>
+          </StaggerChildren>
+        </div>
+      </section>
+
+      {/* ====== 8.5 PATIENT WINS ====== */}
+      <section className="py-28 px-6">
         <div className="max-w-[1000px] mx-auto">
           <FadeInUp>
             <div className="text-center mb-16">
+              <span className="hero-badge">For patients</span>
               <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-4 leading-tight">
-                Built for the reality of Indian clinics
+                What changes for your patients
               </h2>
             </div>
           </FadeInUp>
 
-          <StaggerChildren className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <StaggerChildren className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <StaggerItem>
-            <div className="flex flex-col items-center gap-2">
-              <span className="text-6xl md:text-7xl font-black text-[#7ED957] leading-none tracking-tight">80%</span>
-              <div className="w-8 h-px bg-[#7ED957]/30 mt-2" />
-              <p className="text-sm text-[#9CA3AF] mt-1 max-w-[200px]">of Indian clinics have no digital patient follow-up system</p>
-            </div>
+              <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957]/40 hover:-translate-y-0.5">
+                <h3 className="text-lg font-bold text-white mb-2">No waiting at clinic</h3>
+                <p className="text-sm text-[#9CA3AF] leading-relaxed">Queue managed via WhatsApp. Patients arrive at their slot time — no more 2-hour waits.</p>
+              </div>
             </StaggerItem>
             <StaggerItem>
-            <div className="flex flex-col items-center gap-2">
-              <span className="text-6xl md:text-7xl font-black text-[#7ED957] leading-none tracking-tight">500M+</span>
-              <div className="w-8 h-px bg-[#7ED957]/30 mt-2" />
-              <p className="text-sm text-[#9CA3AF] mt-1 max-w-[200px]">
-                WhatsApp users in India — already where patients reach out
-              </p>
-            </div>
+              <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957]/40 hover:-translate-y-0.5">
+                <h3 className="text-lg font-bold text-white mb-2">Digital prescriptions</h3>
+                <p className="text-sm text-[#9CA3AF] leading-relaxed">No deciphering handwriting. Clean, digital Rx delivered straight to WhatsApp.</p>
+              </div>
             </StaggerItem>
             <StaggerItem>
-            <div className="flex flex-col items-center gap-2">
-              <span className="text-6xl md:text-7xl font-black text-[#7ED957] leading-none tracking-tight">2.5hrs</span>
-              <div className="w-8 h-px bg-[#7ED957]/30 mt-2" />
-              <p className="text-sm text-[#9CA3AF] mt-1 max-w-[200px]">average daily time lost on manual clinical documentation</p>
-            </div>
+              <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957]/40 hover:-translate-y-0.5">
+                <h3 className="text-lg font-bold text-white mb-2">Never miss a follow-up</h3>
+                <p className="text-sm text-[#9CA3AF] leading-relaxed">Automatic reminders for next appointments. No forgotten check-ups.</p>
+              </div>
+            </StaggerItem>
+            <StaggerItem>
+              <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 transition-all duration-400 hover:border-[#7ED957]/40 hover:-translate-y-0.5">
+                <h3 className="text-lg font-bold text-white mb-2">Video consult with trusted doctor</h3>
+                <p className="text-sm text-[#9CA3AF] leading-relaxed">Can&apos;t visit? Consult online with the same doctor they trust — not a random marketplace.</p>
+              </div>
+            </StaggerItem>
+            <StaggerItem>
+              <div className="bg-[#061a14] border border-[#0B3D2E] rounded-2xl p-8 md:col-span-2 transition-all duration-400 hover:border-[#7ED957]/40 hover:-translate-y-0.5">
+                <h3 className="text-lg font-bold text-white mb-2">All medical records in one place</h3>
+                <p className="text-sm text-[#9CA3AF] leading-relaxed">Prescriptions, lab tests, consultation history — all archived digitally. Accessible anytime. Complete peace of mind.</p>
+              </div>
             </StaggerItem>
           </StaggerChildren>
-
-          <div className=" mt-14 pt-10 text-center">
-            <p className="text-lg text-[#9CA3AF]">
-              Clinics don&apos;t need more patients. They need a system that doesn&apos;t lose the ones they already
-              have.
-            </p>
-          </div>
         </div>
       </section>
 
-      {/* ====== 8. OUTCOME ====== */}
-      <section id="outcome" className="py-28 px-6 ">
-        <div className="max-w-[800px] mx-auto">
-          <FadeInUp>
-            <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-12">What changes immediately</h2>
-          </FadeInUp>
-
-          <StaggerChildren className="flex flex-col gap-5 mb-14">
-            <StaggerItem>
-            <div className="flex items-start gap-4">
-              <img src="/assets/icons/checkmark.svg" alt="" width={20} height={20} className="w-5 h-5 mt-1 flex-shrink-0" />
-              <div>
-                <p className="text-lg text-[#E8E8E8]">
-                  Response time: <span className="text-[#7ED957] font-bold">under 5 minutes</span> vs 30+ minutes
-                </p>
-                <p className="text-sm text-[#9CA3AF] mt-0.5">
-                  Every after-hours message gets a response — even at 2 AM
-                </p>
-              </div>
-            </div>
-            </StaggerItem>
-            <StaggerItem>
-            <div className="flex items-start gap-4">
-              <img src="/assets/icons/checkmark.svg" alt="" width={20} height={20} className="w-5 h-5 mt-1 flex-shrink-0" />
-              <div>
-                <p className="text-lg text-[#E8E8E8]">
-                  Documentation: <span className="text-[#7ED957] font-bold">3 minutes</span> vs 25+ minutes
-                </p>
-                <p className="text-sm text-[#9CA3AF] mt-0.5">
-                  AI structures notes from consultation — doctor reviews, not writes
-                </p>
-              </div>
-            </div>
-            </StaggerItem>
-            <StaggerItem>
-            <div className="flex items-start gap-4">
-              <img src="/assets/icons/checkmark.svg" alt="" width={20} height={20} className="w-5 h-5 mt-1 flex-shrink-0" />
-              <div>
-                <p className="text-lg text-[#E8E8E8]">
-                  Follow-up rate: <span className="text-[#7ED957] font-bold">98%</span> vs ~20% manual
-                </p>
-                <p className="text-sm text-[#9CA3AF] mt-0.5">
-                  Every patient gets a follow-up — automatically via WhatsApp
-                </p>
-              </div>
-            </div>
-            </StaggerItem>
-            <StaggerItem>
-            <div className="flex items-start gap-4">
-              <img src="/assets/icons/checkmark.svg" alt="" width={20} height={20} className="w-5 h-5 mt-1 flex-shrink-0" />
-              <div>
-                <p className="text-lg text-[#E8E8E8]">
-                  Repeat visits: <span className="text-[#7ED957] font-bold">+30%</span> within 90 days
-                </p>
-                <p className="text-sm text-[#9CA3AF] mt-0.5">
-                  Patients return because the system reminds them at the right time
-                </p>
-              </div>
-            </div>
-            </StaggerItem>
-          </StaggerChildren>
-
-          <div className=" pt-10">
-            <p className="text-2xl font-bold text-white">
-              Same clinic. <span className="text-[#7ED957]">More output.</span>
+      {/* ====== EVERYONE WINS ====== */}
+      <section className="py-20 px-6 section-bold">
+        <FadeInUp>
+          <div className="max-w-[700px] mx-auto text-center">
+            <h2 className="text-3xl md:text-[2.75rem] font-extrabold text-white mb-4">
+              Everyone wins.
+            </h2>
+            <p className="text-lg text-[#9CA3AF] mb-8">
+              Doctors save time and earn more. Patients get better care and convenience.<br />
+              Same clinic. <span className="text-[#7ED957] font-bold">Completely different output.</span>
             </p>
+            <a href="#demo-form" className="cta-btn inline-block bg-[#7ED957] text-[#04110d] px-8 py-3.5 rounded-full font-bold text-sm transition-all duration-300 hover:scale-[1.03] hover:brightness-110 hover:shadow-[0_0_20px_rgba(126,217,87,0.3)] active:scale-95">
+              See it in action
+            </a>
           </div>
-        </div>
+        </FadeInUp>
       </section>
 
       {/* ====== 8.5 OBJECTION HANDLING ====== */}
