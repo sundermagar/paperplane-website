@@ -7,7 +7,6 @@ import DemoForm from "@/components/DemoForm";
 import { FadeIn, FadeInUp, StaggerChildren, StaggerItem } from "@/components/MotionSection";
 import { motion } from "framer-motion";
 import Accordion from "@/components/Accordion";
-
 export default function Home() {
   const faqItems = [
     { question: '"I don\'t want another app."', answer: 'Neither do we. Paperplane works over WhatsApp — the app your patients already use. Your staff doesn\'t learn anything new.' },
